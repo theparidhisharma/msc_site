@@ -1,7 +1,6 @@
 import React from 'react';
 import { Menu, Zap } from 'lucide-react';
-// For a standard Next.js project on GitHub, you would typically use:
-// import Image from 'next/image'; 
+ 
 
 // --- MOCK DATA ---
 const navItems = ['ABOUT US', 'EVENTS', 'BLOGS', 'TEAM', 'CONTACT US', 'FAQ'];
@@ -22,7 +21,7 @@ const galleryItems = [
 ];
 // --- END MOCK DATA ---
 
-// Helper component for the Navigation Bar (Exact Visual Match)
+// Helper component for the Navigation Bar
 const Navbar = () => { // Changed to standard function/const declaration without explicit React.FC type
   const logoPlaceholderPath = '/images/mlsa-shield-logo.png';
 
